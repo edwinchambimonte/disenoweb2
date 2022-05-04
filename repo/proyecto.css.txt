@@ -1,0 +1,91 @@
+
+.contenedorpadre{
+    max-width: 1600px;
+    display: block;
+    background-color: #D5AAB9;
+}
+.contenedor1{
+    /*color: rgb(188, 93, 93);*/
+    margin: 10px auto;
+    padding: .5rem;
+    max-width: 96%;
+    background-image: url("imagen_logo/comida0.jpg");
+    overflow: hidden;
+}
+
+.contenedor1 header nav #logo{  
+    border: 2px dotted black;
+    border-radius: 100%;
+    max-width: 15%;
+    margin: 3.5%;
+}
+.contenedor1 header nav .lista_menu{
+    max-width: 85%;
+    list-style-type:none;
+    margin: 8% 10%;
+    float: right;
+    list-style-type: none;
+}
+.contenedor1 header nav .lista_menu li{
+    float: left;
+    margin-left:23px;
+    margin-right: 21px;
+    font-weight: bold;
+    font-family: 'BIZ UDPGothic', sans-serif;
+}
+.contenedor1 header nav .lista_menu li .l1{
+    border-radius: 20%;
+}
+.contenedor1 header nav .lista_menu li .l1:link{
+    text-decoration: none;
+    font-size: 37px;
+    color: rgb(9, 255, 202);
+    background-color: rgb(255, 204, 255);
+}
+.contenedor1 header nav .lista_menu li .l1:visited{
+    color: #000000;
+}
+.contenedor1 header nav .lista_menu li .l1:hover{
+    color: #fe2b2b;
+    background-color: #f0f8ff;
+}
+.contenedor2{
+    margin: 10px auto;
+    padding: .5rem;
+    max-width: 96%;
+    overflow: hidden;
+    background-color: #E4C8D2;
+}
+
+.contenedor3{
+    background-color: #C18498;
+    margin: 10px auto;
+    padding: .5rem;
+    max-width: 1600px;
+}
+.contenedor4{
+    background-color: #AE6575;
+    margin: 10px auto;
+    padding: .5rem;
+    max-width: 1600px;
+}
+
+.contenedorrecetas .formulario h3{
+    font-size: 35px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    background: #ff8ca5;
+}
+#id1,#id2,#id3{
+width: 100%;
+height: 50px;
+}
+
+
+
+
+    
